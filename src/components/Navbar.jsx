@@ -14,7 +14,7 @@ import {
   ModalFooter, 
   useDisclosure 
 } from '@chakra-ui/react';
-import ReportsDisplay from '../components/reportsDisplay'; // Import the ReportsDisplay component
+import ReportsDisplay from '../components/ReportsDisplay'; // Import the ReportsDisplay component
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
