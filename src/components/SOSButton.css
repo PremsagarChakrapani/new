@@ -1,0 +1,41 @@
+/* src/components/SOSButton.css */
+
+.sos-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Positioned fixed so it stays visible */
+    bottom: 80px;
+    margin-left: 20px;
+    z-index: 1000; /* Ensure the button is above other content */
+  }
+  
+  .sos-button {
+    background-color: #ff4d4d; /* Bright red for prominence */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 200px;
+    font-size:x-large;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sos-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+  }
+  
+  .sos-button:active {
+    background-color: #cc0000; /* Even darker red on click */
+  }
+  
+  @media (max-width: 768px) {
+    .sos-button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
+  
